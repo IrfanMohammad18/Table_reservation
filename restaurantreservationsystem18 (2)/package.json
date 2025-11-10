@@ -11,6 +11,7 @@
   "deploy": "npm run build && copy custom-index.html out\\index.html && xcopy out . /E /I /Y && git add . && git commit -m \"Deploy to root\" && git push origin main"
 
 
+
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
