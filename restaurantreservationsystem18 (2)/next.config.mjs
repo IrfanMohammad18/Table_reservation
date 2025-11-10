@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // Required for static export
+  output: 'export',
   images: { unoptimized: true },
-  basePath: '/Table_reservation', // <-- must match your repo name
+  basePath: '/Table_reservation', // same as your repo name
   assetPrefix: '/Table_reservation/',
   trailingSlash: true,
   eslint: { ignoreDuringBuilds: true },
