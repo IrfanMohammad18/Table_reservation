@@ -2,7 +2,7 @@
 const nextConfig = {
   output: 'export', // Required for static export
   images: { unoptimized: true },
-  basePath: '/Table_reservation', // GitHub Pages subpath
+  basePath: '/Table_reservation', // <-- must match your repo name
   assetPrefix: '/Table_reservation/',
   trailingSlash: true,
   eslint: { ignoreDuringBuilds: true },
