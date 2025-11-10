@@ -6,7 +6,10 @@
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
-    "start": "next start"
+    "start": "next start",
+  "export": "next build",
+  "deploy": "npm run build && xcopy out docs /E /I /Y && git add . && git commit -m \"Auto deploy\" && git push origin main"
+
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
@@ -71,4 +74,6 @@
     "tw-animate-css": "1.3.3",
     "typescript": "^5"
   }
+  
+
 }
