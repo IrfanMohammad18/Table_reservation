@@ -8,7 +8,7 @@
     "lint": "next lint",
     "start": "next start",
   "export": "next build",
-  "deploy": "npm run build && xcopy out . /E /I /Y && git add . && git commit -m \"Deploy to root\" && git push origin main"
+  "deploy": "npm run build && copy custom-index.html out\\index.html && xcopy out . /E /I /Y && git add . && git commit -m \"Deploy to root\" && git push origin main"
 
 
   },
